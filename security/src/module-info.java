@@ -1,6 +1,6 @@
 module com.udacity.catpoint.security {
-    requires com.udacity.catpoint.image;
-    requires java.desktop;
+    requires transitive com.udacity.catpoint.image;
+    requires transitive java.desktop;
     requires com.google.gson;
     requires java.prefs;
     requires com.google.common;
